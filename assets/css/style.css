@@ -1,0 +1,81 @@
+body {
+	font-family: Arial;
+	margin:0;
+	padding:0;	
+	background-image: url('../images/matematica_2.jpeg');
+}
+
+.main-container {
+	width: 800px;
+	height: 780px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #F8F8F8;
+	border-radius: 10px;
+  opacity: 0.97;
+  filter: alpha(opacity=97); /* For IE8 and earlier */	
+}
+
+/*form*/
+
+form .labels {
+	width: 210px;
+	height: 110px;
+	float: left;
+}		
+
+form .labels label {
+	margin-bottom: 5px;
+	width: 210px;
+	display: inline-block;
+}		
+
+form .inputs {
+	width: 300px;
+	height: 110px;
+	float: left;
+}
+
+form .inputs input{
+	margin-bottom: 2px;
+	width: 291px;
+}
+
+form .inputs input:first-child {
+	margin-bottom: 2px;
+	width: 250px;			
+}			
+
+form .inputs select{
+	margin-bottom: 2px;
+	width: 295px;
+}
+
+form .form-container {
+	width: 782px;
+	height: auto;
+	padding: 2px;
+}
+
+/*Resultado*/
+
+#results {
+	width: 800px;
+	height: 600px;
+	float: left;
+}
+
+#results img {
+	border-radius: 10px;	
+	width: 800px;
+	height: 600px;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: blue;
+}
